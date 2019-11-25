@@ -686,6 +686,5 @@ var PassageMenuView = Backbone.View.extend({
 		e.preventDefault();
 		if (!temp) grammarColorConfigPage.appendTo("body");
 		$('#theGrammarColorModal').modal('show').find('.modal-content').load('/color_code_grammar.html');
-	}
-	
+    }
 });
